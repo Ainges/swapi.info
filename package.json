@@ -3,9 +3,9 @@
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbo",
+		"dev": "PORT=4000 next dev --turbo",
 		"build": "next build",
-		"start": "next start",
+		"start": "PORT=4000 next start",
 		"prepare": "husky"
 	},
 	"dependencies": {
